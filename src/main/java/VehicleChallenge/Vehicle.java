@@ -1,10 +1,10 @@
-package VehcleChallenge;
+package VehicleChallenge;
 
-public abstract class Vehicule {
+public abstract class Vehicle {
     private String brand;
     private int kilometers;
 
-    public Vehicule(String brand, int kilometers) {
+    public Vehicle(String brand, int kilometers) {
         this.brand = brand;
         this.kilometers = kilometers;
     }

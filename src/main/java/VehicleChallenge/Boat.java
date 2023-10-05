@@ -1,6 +1,6 @@
-package VehcleChallenge;
+package VehicleChallenge;
 
-public class Boat extends Vehicule {
+public class Boat extends Vehicle {
     public Boat(String brand, int kilometers) {
         super(brand, kilometers);
     }

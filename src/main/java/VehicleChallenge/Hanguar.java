@@ -1,4 +1,4 @@
-package VehcleChallenge;
+package VehicleChallenge;
 
 public class Hanguar {
     public static void main(String[] args) {
