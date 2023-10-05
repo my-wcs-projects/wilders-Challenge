@@ -4,7 +4,7 @@ public class Numeric {
         return number % 2 != 0;
     }
 
-    public static boolean isOven(int number) {
+    public static boolean isEven(int number) {
         return number % 2 == 0;
     }
 
@@ -23,8 +23,8 @@ public class Numeric {
         System.out.println(num1 + " is odd: " + isOdd(num1));
         System.out.println(num2 + " is odd: " + isOdd(num2));
 
-        System.out.println(num1 + " is oven: " + isOven(num1));
-        System.out.println(num2 + " is oven: " + isOven(num2));
+        System.out.println(num1 + " is Even: " + isEven(num1));
+        System.out.println(num2 + " is Even: " + isEven(num2));
 
         System.out.println("Square of " + num1 + " is: " + square(num1));
         System.out.println("Square of " + num2 + " is: " + square(num2));

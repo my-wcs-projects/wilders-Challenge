@@ -19,15 +19,12 @@ public class Wilder {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
     public void setPresent(boolean present) {
         this.present = present;
     }
 
     public String woIam() {
-        if(isPresent()) {
-            return "My name is " + getFirsName() + " and I am present";
-        } else {
-            return "My name is " + getFirsName() + " and I am not present";
-        }
+        return "My name is " + getFirsName() + "and I am" + ( isPresent() ? " present" : "not present" );
     }
 }
